@@ -245,7 +245,7 @@ async def subscribe_bsc_event():
                                             f"📍 *代币地址:* `{event_info['token']}`\n\n"
                                             f"👤 *创建者:* `{event_info['creator']}`\n"
                                             f"💰 *税率:* {input_info['taxRate'] / 100:.2f}% + 1%\n"
-                                            f"💸 *受益人:* [{input_info['beneficiary']}🔎](https://x.com/search?q={input_info['beneficiary']})\n\n"
+                                            f"💸 *受益人:* `{input_info['beneficiary']}` [Search on X🔎](https://x.com/search?q={input_info['beneficiary']}) | [Search on GitHub🔎](https://github.com/search?q={input_info['beneficiary']}&type=code)\n\n"
                                             f"🔗 *交易哈希:* [{tx_hash}](https://bscscan.com/tx/{tx_hash})\n\n"
                                             f"🔗 *交易平台:*\n"
                                             f"[Avebot链接](https://pro.ave.ai/token/{event_info['token']}-bsc) | "
